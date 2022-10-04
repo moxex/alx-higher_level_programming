@@ -1,5 +1,6 @@
+#!/usr/bin/node
 
-n max (array) {
+function max (array) {
   let MaxInt = 0;
   for (const i of array) {
     if (i > MaxInt) {

@@ -1,5 +1,6 @@
+#!/usr/bin/node
 
-n Factorial (number) {
+function Factorial (number) {
   const holder = Number(number);
   if (!holder) {
     return (1);
